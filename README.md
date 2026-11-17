@@ -1,3 +1,10 @@
+> **About this repository.** This is the MIC-DKFZ copy of [TotalSegmentator](https://github.com/wasserth/TotalSegmentator).
+> Its branch [`streaming-inference`](https://github.com/MIC-DKFZ/TotalSegmentator/tree/streaming-inference) holds our
+> suggestion for running TotalSegmentator through nnU-Net's streaming inference, proposed as
+> [pull request #648](https://github.com/wasserth/TotalSegmentator/pull/648) to wasserth/TotalSegmentator. We are happy to
+> refine and adjust it together with the TotalSegmentator maintainers until it matches their expectations.
+> For TotalSegmentator itself, please use the [official repository](https://github.com/wasserth/TotalSegmentator).
+
 # TotalSegmentator
 
 Tool for segmentation of most major anatomical structures in any CT or MR image. It was trained on a wide range of different CT and MR images (different scanners, institutions, protocols,...) and therefore works well on most images. A large part of the training dataset can be downloaded here: [CT dataset](https://doi.org/10.5281/zenodo.6802613) (1228 subjects) and [MR dataset](https://zenodo.org/doi/10.5281/zenodo.11367004) (616 subjects). You can also try the tool online at [totalsegmentator.com](https://totalsegmentator.com/) or as [3D Slicer extension](https://github.com/lassoan/SlicerTotalSegmentator).
